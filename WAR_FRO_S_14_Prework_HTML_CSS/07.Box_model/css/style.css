@@ -1,0 +1,21 @@
+body {
+    background-color: #c7d8ed;
+    font-family: verdana;
+}
+
+a {
+  color: red;
+  border: solid 1px red;
+  width: 500px;
+}
+
+p {
+  color: red;
+  border: solid 1px red;
+  width: 500px;
+}
+
+table, th, td {
+  border: solid 1px black;
+  border-collapse: collapse;
+}

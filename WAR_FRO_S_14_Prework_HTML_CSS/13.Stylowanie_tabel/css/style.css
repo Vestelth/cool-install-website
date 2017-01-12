@@ -1,0 +1,22 @@
+  body {
+    background-color: #c7d8ed;
+    font-family: verdana;
+  }
+
+  table, td, th {
+    padding: 5px;
+  }
+
+  td, th {
+    border: 1px solid black;
+  }
+
+  th {
+    background-color: darkblue;
+    color: white;
+  }
+
+  .tbl-coll {
+    margin-left: 8px;
+    border-collapse: collapse;
+  }

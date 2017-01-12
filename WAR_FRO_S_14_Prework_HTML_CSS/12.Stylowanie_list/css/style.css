@@ -1,0 +1,23 @@
+  body {
+    background-color: #c7d8ed;
+    font-family: verdana;
+  }
+
+  .list1 {
+    list-style-type: square;
+  }
+
+  .list2 {
+    list-style-type: none;
+    font-family: serif;
+    color: #116493;
+  }
+
+   #pkt {
+     display: inline;
+   }
+
+   a {
+     padding: 8px;
+     text-decoration: none;
+   }

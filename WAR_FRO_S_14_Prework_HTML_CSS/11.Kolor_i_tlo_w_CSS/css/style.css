@@ -1,0 +1,34 @@
+  body {
+    background-color: #c7d8ed;
+    font-family: verdana;
+  }
+
+  .par1 {
+    background-color: #05daff;
+    /*background-color: rgba(0, 91, 107, 0.4);*/
+    opacity: 0.4;
+    background: linear-gradient(to bottom, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(63,142,184,1) 100%);
+  }
+
+/*
+  Wniosek: Wartość opacity czyni przezroczystymi wszystkie
+  elementy.
+  Gdy ustawiamy przezroczystość w rgba, przezroczystym robi
+  się tylko tło.
+*/
+
+  .picdiv {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 2em;
+    background-image: url("https://unsplash.it/200/200");
+    background-color: yellow;
+  }
+
+  .picdiv2 {
+    width: 100%;
+    height: 200px;
+    background-image: url("https://unsplash.it/350/200");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
