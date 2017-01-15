@@ -2,3 +2,7 @@ body {
     background-color: #c7d8ed;
     font-family: verdana;
 }
+
+ol {
+  line-height: 1.5em;
+}

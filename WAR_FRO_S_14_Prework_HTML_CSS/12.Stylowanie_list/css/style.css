@@ -13,8 +13,12 @@
     color: #116493;
   }
 
+  .list2 li {
+    display: inline-block;
+  }
+
    #pkt {
-     display: inline;
+
    }
 
    a {
