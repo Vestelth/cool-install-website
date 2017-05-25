@@ -1,0 +1,31 @@
+div.container {
+  margin-top: 80px;
+}
+
+h1.page-header {
+  font-family: 'Play';
+}
+
+.img-wrapper {
+  display: flex;  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  position: relative;
+  padding-bottom: 100%;
+  overflow: hidden;
+  width: 100%;
+  height: 200px;
+}
+
+.img-wrapper img {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+@media (max-width: 568px){
+  img {
+    margin-top: 25px;
+  }
+}
